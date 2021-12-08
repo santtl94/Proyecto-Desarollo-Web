@@ -1,0 +1,138 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+body {
+    background-image: url("../multimedia/Fondo.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+span {
+    letter-spacing: 20px;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    display: inline-block;
+    position: relative;
+    width: 17%;
+    margin-left: 30px;
+   
+    
+}
+
+/* .nav-link se que queda feo pero lo hice para ir probando otras cosas */
+.nav-link {
+    color: black;
+    
+}
+#Servicios-link, #Nosotros-link {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    
+}
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+
+footer {
+    font-size: 125%;
+    font-weight: 400;
+}
+
+.link-interno {
+    color: black;
+    font-size: 30px;
+}
+.pFooter {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 40px 30px 40px
+}
+p {
+    line-height: 150%;
+    font-size: 20px;
+    }
+
+.logo {
+    margin-bottom: 20px;
+}
+
+h2 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    margin: 40;
+}
+
+nav ul li a:hover {
+    background-color: #E5890A;
+    color: black;
+    border: 1px solid black;
+    border-radius: 4rem;
+    padding: 5px 5px;
+    
+
+}
+
+.section {
+    display: grid;
+    padding: 20px 0;
+    width: 20rem;
+    margin: 0 auto;
+    max-width: 120rem;
+    
+    
+
+}
+/* .ofertas {
+    display: grid;
+    grid-template-columns: (3, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    width: 20rem;
+    
+    
+    
+} */
+
+
+.img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: (3, 1fr);
+}
+
+
+/*  Mobile First  */
+@media screen and (max-width: 480px) {
+    .maps {
+        width: 50%;
+    }    
+}
+
+@media screen and (max-width: 768px) {
+    .maps {
+        width: 70%;
+    }    
+}
+
+
